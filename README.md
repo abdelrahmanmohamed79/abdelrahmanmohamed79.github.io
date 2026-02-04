@@ -64,3 +64,15 @@ All information here is **educational only**.
 ✔ Networking Fundamentals
 ✔ Internet Privacy & Safety
 ✔ Tools used for learning & testing
+
+
+---
+
+If you want, I can:
+- Make it **more hacker-style** (ASCII art, darker tone)
+- Make it **more professional**
+- Customize it for **GitHub**, **personal website**, or **school project**
+- Add badges, icons, or animations
+
+Just tell me the vibe 😎
+
