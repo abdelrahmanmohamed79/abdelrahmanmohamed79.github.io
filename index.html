@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyberSafe — Ethical Hacking, Programming & Internet Safety</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Noise overlay -->
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="logo">
+        <span class="logo-icon">&lt;/&gt;</span>
+        <span class="logo-text">CyberSafe</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#hacking">Hacking</a></li>
+        <li><a href="#ethical">Ethical Hacking</a></li>
+        <li><a href="#programming">Programming</a></li>
+        <li><a href="#safety">Stay Safe</a></li>
+        <li><a href="#tips">Safety Tips</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="hero-bg">
+      <div class="grid-lines"></div>
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+    </div>
+    <div class="container hero-content">
+      <p class="hero-label">Learn • Protect • Build</p>
+      <h1 class="hero-title">
+        <span class="line">Understand</span>
+        <span class="line accent">Hacking</span>
+        <span class="line"> & Stay Safe Online</span>
+      </h1>
+      <p class="hero-desc">
+        Explore ethical hacking, programming, and practical ways to protect yourself on the internet.
+      </p>
+      <div class="hero-cta">
+        <a href="#safety" class="btn btn-primary">Stay Safe Guide</a>
+        <a href="#ethical" class="btn btn-outline">Ethical Hacking</a>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- What is Hacking -->
+  <section id="hacking" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">01 — Hacking</span>
+        <h2>What is Hacking?</h2>
+      </div>
+      <div class="content-grid">
+        <div class="card card-feature">
+          <div class="card-icon">&#x1F512;</div>
+          <h3>Definition</h3>
+          <p>Hacking is the practice of identifying weaknesses in computer systems or networks and using technical skills to exploit or fix them. It can be used for good (ethical) or malicious purposes.</p>
+        </div>
+        <div class="card card-feature">
+          <div class="card-icon">&#x1F4BB;</div>
+          <h3>Types</h3>
+          <p><strong>Black Hat:</strong> Malicious hackers who break in to steal or harm. <strong>White Hat:</strong> Ethical hackers who help secure systems. <strong>Grey Hat:</strong> Somewhere in between.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ethical Hacking -->
+  <section id="ethical" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">02 — Ethical Hacking</span>
+        <h2>Hacking for Good</h2>
+      </div>
+      <div class="two-col">
+        <div class="two-col-text">
+          <p class="lead">Ethical hackers use the same techniques as malicious hackers—but with permission and for defense. They find vulnerabilities so organizations can fix them before bad actors do.</p>
+          <ul class="check-list">
+            <li>Authorized penetration testing</li>
+            <li>Bug bounty programs</li>
+            <li>Security audits & compliance</li>
+            <li>Incident response & forensics</li>
+          </ul>
+        </div>
+        <div class="two-col-visual">
+          <div class="code-block">
+            <pre><code>// Ethical hacking = permission + defense
+if (vulnerability.found) {
+  report.to(securityTeam);
+  recommend.fix();
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programming -->
+  <section id="programming" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">03 — Programming</span>
+        <h2>Code Powers Security</h2>
+      </div>
+      <p class="section-intro">Programming is the foundation of both building secure systems and understanding how attacks work. Key languages in security:</p>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="skill-lang">Python</span>
+          <p>Scripting, automation, and security tools (e.g., penetration testing frameworks).</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-lang">JavaScript</span>
+          <p>Web security, understanding XSS, and building safe front-end applications.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-lang">C / C++</span>
+          <p>Low-level understanding, buffer overflows, and system security.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-lang">Bash / Shell</span>
+          <p>System administration and security automation on Linux.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stay Safe -->
+  <section id="safety" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">04 — Protection</span>
+        <h2>How to Stay Safe from Hacking</h2>
+      </div>
+      <div class="safety-grid">
+        <div class="safety-card">
+          <div class="safety-num">1</div>
+          <h3>Strong Passwords</h3>
+          <p>Use long, unique passwords and a password manager. Enable 2FA wherever possible.</p>
+        </div>
+        <div class="safety-card">
+          <div class="safety-num">2</div>
+          <h3>Updates & Patches</h3>
+          <p>Keep your OS, browser, and apps updated to close known security holes.</p>
+        </div>
+        <div class="safety-card">
+          <div class="safety-num">3</div>
+          <h3>Phishing Awareness</h3>
+          <p>Don’t click suspicious links or open attachments from unknown senders. Verify URLs.</p>
+        </div>
+        <div class="safety-card">
+          <div class="safety-num">4</div>
+          <h3>Secure Networks</h3>
+          <p>Use VPN on public Wi‑Fi. Prefer HTTPS sites and avoid sensitive tasks on open networks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Safety Tips -->
+  <section id="tips" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">05 — Internet Safety</span>
+        <h2>Internet Safety Tips</h2>
+      </div>
+      <div class="tips-list">
+        <div class="tip-item">
+          <span class="tip-icon">&#x1F513;</span>
+          <div>
+            <h4>Lock Your Accounts</h4>
+            <p>Two-factor authentication (2FA) adds a second check so even if someone has your password, they can’t log in easily.</p>
+          </div>
+        </div>
+        <div class="tip-item">
+          <span class="tip-icon">&#x1F4E2;</span>
+          <div>
+            <h4>Be Skeptical of Emails</h4>
+            <p>Scammers impersonate banks, brands, and colleagues. Check the real sender address and don’t use links in emails to “verify” accounts.</p>
+          </div>
+        </div>
+        <div class="tip-item">
+          <span class="tip-icon">&#x1F310;</span>
+          <div>
+            <h4>Check the URL</h4>
+            <p>Look for <code>https://</code> and the correct domain. Fake sites often use similar-looking URLs to steal credentials.</p>
+          </div>
+        </div>
+        <div class="tip-item">
+          <span class="tip-icon">&#x1F4BE;</span>
+          <div>
+            <h4>Back Up Important Data</h4>
+            <p>Regular backups protect you from ransomware and hardware failure. Use cloud or external drives and test restores.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-box">
+        <h2>Stay curious. Stay secure.</h2>
+        <p>Keep learning about ethical hacking and programming—and always put safety first online.</p>
+        <a href="#hero" class="btn btn-primary">Back to Top</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <a href="#" class="logo">
+          <span class="logo-icon">&lt;/&gt;</span>
+          <span class="logo-text">CyberSafe</span>
+        </a>
+        <p class="footer-tagline">Ethical Hacking • Programming • Internet Safety</p>
+        <p class="footer-copy">&copy; CyberSafe. For educational purposes. Stay legal and ethical.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
